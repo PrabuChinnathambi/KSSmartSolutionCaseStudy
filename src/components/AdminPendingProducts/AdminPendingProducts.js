@@ -19,7 +19,7 @@ const AdminPendingProducts = () => {
 
 
     const getPendingProducts = async () => {
-        axios.get("http://localhost:8080/api/allProducts")
+        axios.get("https://kssmartcasestudy.herokuapp.com/api/allProducts")
             .then((response) => {
                 console.log(response);
                 setProducts(response.data)
@@ -34,7 +34,7 @@ const AdminPendingProducts = () => {
         const payload = {
             productId: id
         }
-        axios.put("http://localhost:8080/api/setadminAccept", payload)
+        axios.put("https://kssmartcasestudy.herokuapp.com/api/setadminAccept", payload)
             .then((response) => {
                 console.log(response);
                 getPendingProducts();
@@ -49,7 +49,7 @@ const AdminPendingProducts = () => {
         const payload = {
             productId: id
         }
-        axios.post("http://localhost:8080/api/rejectProduct", payload)
+        axios.post("https://kssmartcasestudy.herokuapp.com/api/rejectProduct", payload)
             .then((response) => {
                 console.log(response);
                 getPendingProducts();

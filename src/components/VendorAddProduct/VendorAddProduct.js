@@ -53,7 +53,7 @@ const VendorAddProduct = () => {
 
     const hanldeClickAddProduct = async () => {
 
-        axios.post("http://localhost:8080/api/addProduct", addProduct)
+        axios.post("https://kssmartcasestudy.herokuapp.com/api/addProduct", addProduct)
             .then((response) => {
                 console.log(response)
                 toast("Product Added Successfully...!");

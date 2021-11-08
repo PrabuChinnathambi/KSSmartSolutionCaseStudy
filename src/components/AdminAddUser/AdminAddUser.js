@@ -81,7 +81,7 @@ const AdminAddUser = () => {
 
     const getAdminUsers = async () => {
 
-        await axios.get('http://localhost:8080/api/getAllAdmins', { headers: { "Authorization": token } })
+        await axios.get('https://kssmartcasestudy.herokuapp.com/api/getAllAdmins', { headers: { "Authorization": token } })
             .then((response) => {
                 console.log(response);
                 setAdminUsers(response.data);
@@ -97,7 +97,7 @@ const AdminAddUser = () => {
             toast("All fields are required");
         } else {
             if (addUser.role === "user") {
-                await axios.post('http://localhost:8080/api/registerVendor', addUser, { headers: { "Authorization": token } })
+                await axios.post('https://kssmartcasestudy.herokuapp.com/api/registerVendor', addUser, { headers: { "Authorization": token } })
                     .then((response) => {
                         toast("User Added Successfully!");
                         setAddUser({
@@ -111,7 +111,7 @@ const AdminAddUser = () => {
                         toast(err.response.data.message)
                     })
             } else {
-                await axios.post('http://localhost:8080/api/registerAdmin', addUser, { headers: { "Authorization": token } })
+                await axios.post('https://kssmartcasestudy.herokuapp.com/api/registerAdmin', addUser, { headers: { "Authorization": token } })
                     .then((response) => {
                         toast("Admin Added Successfully!");
                         setAddUser({

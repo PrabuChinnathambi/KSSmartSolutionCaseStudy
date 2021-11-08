@@ -26,7 +26,7 @@ const Users = () => {
 
     const getUserDatas = async () => {
 
-        await axios.get('http://localhost:8080/api/allVendros', {
+        await axios.get('https://kssmartcasestudy.herokuapp.com/api/allVendros', {
             headers: { "Authorization": token }
         })
             .then((response) => {

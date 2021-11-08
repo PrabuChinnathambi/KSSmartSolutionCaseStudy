@@ -19,7 +19,7 @@ const VendorProducts = () => {
 
     const getUserProduct = () => {
 
-        axios.get("http://localhost:8080/api/allProducts")
+        axios.get("https://kssmartcasestudy.herokuapp.com/api/allProducts")
             .then((response) => {
                 console.log(response)
                 setProducts(response.data)

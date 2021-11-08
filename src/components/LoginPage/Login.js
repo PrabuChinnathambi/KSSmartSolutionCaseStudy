@@ -47,7 +47,7 @@ const Login = () => {
                 password: login.password
             }
             if (roll === "admin") {
-                axios.post('http://localhost:8080/api/loginAdmin', payload)
+                axios.post('https://kssmartcasestudy.herokuapp.com/api/loginAdmin', payload)
                     .then((response) => {
                         console.log(response);
 
@@ -75,7 +75,7 @@ const Login = () => {
                         toast(err.response.data.message);
                     })
             } else if (roll === "user") {
-                axios.post('http://localhost:8080/api/loginVendor', payload)
+                axios.post('https://kssmartcasestudy.herokuapp.com/api/loginVendor', payload)
                     .then((response) => {
                         const currentUser = {
                             name: response.data.name,

@@ -26,7 +26,7 @@ const AdminDashboard = () => {
     }, [])
 
     const getTotalCounts = async () => {
-        await axios.get("http://localhost:8080/api/getCounts")
+        await axios.get("https://kssmartcasestudy.herokuapp.com/api/getCounts")
             .then((response) => {
                 console.log(response);
                 setTotalCounts(response.data);
