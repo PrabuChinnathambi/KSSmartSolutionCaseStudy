@@ -1,0 +1,76 @@
+.admin_pending_body{
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    top: 0;
+    left: 78px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+
+.admin_pending_body .admin_pending_products_container{
+    height: 100vh;
+    color: #11101d;
+    margin: 20px 40px 20px 40px;   
+}
+
+.admin_pending_body .admin_pending_products_container .styled-table {
+    text-align: left;
+    border-radius: 10px;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: sans-serif;
+    min-width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+}
+
+.admin_pending_body  .admin_pending_products_container .styled-table thead tr {
+    background-color: #3e3d49;
+    color: #ffffff;
+    text-align: left;
+    
+}
+.admin_pending_body .admin_pending_products_container .styled-table th,
+.admin_pending_body .admin_pending_products_container .styled-table td {
+    padding: 12px 25px;
+}
+
+.admin_pending_body .admin_pending_products_container .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.admin_pending_body .admin_pending_products_container .styled-table tbody tr:nth-of-type(even) {
+    background-color: whitesmoke;
+}
+
+.admin_pending_body .admin_pending_products_container .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+    
+}
+.admin_pending_body .admin_pending_products_container .styled-table .product_card{
+    margin-bottom: 10px;
+}
+.admin_pending_body .admin_pending_products_container .styled-table img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.admin_pending_body .admin_pending_products_container .styled-table button{
+    border-radius: 10px;
+    padding: 3px 15px;
+    color: white;
+
+}
+.admin_pending_body .admin_pending_products_container .styled-table .accpet_btn{
+    margin-right: 20px;
+    background-color: blue;
+    
+}
+
+.admin_pending_body .admin_pending_products_container .styled-table .reject_btn{
+    background-color: red;
+}
+

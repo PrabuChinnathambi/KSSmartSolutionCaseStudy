@@ -1,0 +1,89 @@
+.add_user_body{
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    top: 0;
+    left: 78px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+    
+}
+
+.add_user_body .add_user_container{
+    display: inline-block;
+    height: 100vh;
+    color: #11101d;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 40px 20px 40px;   
+
+}
+.add_user_body .add_user_container .add_user_card{
+    min-width: 1000px;
+    min-height: 400px;
+    padding: 30px 40px;
+    margin: 20px 30px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+.add_user_body .add_user_container .add_user_card .add_user_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_user_body .add_user_container .add_user_card .add_user_head h2{
+    font-weight: 800;
+}
+.add_user_body .add_user_container .add_user_card .add_user_head button{
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 10px;
+    background-color: rgb(20, 20, 73);
+}
+.add_user_body .add_user_container .add_user_card .form_data{
+    margin: 20px 150px;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    /* border: 1px solid blue; */
+
+    
+}
+
+.add_user_body .add_user_container .add_user_card .form_data .add_user_button{
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-top: 15px;
+    font-size: 10px;
+    background-color: rgb(20, 20, 73);
+}
+
+.add_user_body .add_user_container .add_user_card .form_data .form_field{
+    margin: 18px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.add_user_body .add_user_container .add_user_card .form_data .form_field p{
+    width: 150px;
+    text-align: right;
+    margin-right: 30px;
+}
+.add_user_body .add_user_container .add_user_card .form_data .form_field input{
+    width: 200px;
+    border-radius: 30px;
+    padding: 3px 3px 3px 15px ;
+    font-size: 12px;
+}
+
+.add_user_body .add_user_container .add_user_card .form_data .form_field .selectTag{
+    width: 200px;
+    border-radius: 30px;
+    padding: 3px 3px 3px 15px ;
+    font-size: 12px;
+}

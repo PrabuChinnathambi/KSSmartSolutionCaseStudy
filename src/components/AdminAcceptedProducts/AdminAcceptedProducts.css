@@ -1,0 +1,51 @@
+.admin_accepted_body{
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    top: 0;
+    left: 78px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+.admin_accepted_body .admin_accepted_container{
+    color: #11101d;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 40px 20px 40px;   
+}
+.admin_accepted_body .admin_accepted_container h2{
+    font-weight: 700;
+    margin-left: 16px;
+    margin-bottom: 20px;
+
+}
+.admin_accepted_body .admin_accepted_container .admin_accepted_main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.admin_accepted_body .admin_accepted_container .admin_acp_card img{
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.admin_accepted_body .admin_accepted_container .admin_acp_card{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    width: 350px;
+    margin: 10px 5px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.admin_accepted_body .admin_accepted_container .admin_acp_card p{
+    font-size: 12px;
+}
+
+.admin_accepted_body .admin_accepted_container .admin_acp_card .feild_names{
+    color: red;
+}

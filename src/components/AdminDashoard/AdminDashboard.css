@@ -1,0 +1,92 @@
+.admin_dash_page{
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    top: 0;
+    left: 78px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+.admin_dash_page .admin_dash_body{
+    display: flex;
+    flex-wrap: wrap;
+    color: #11101d;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 40px; 
+}
+
+.admin_dash_page .admin_dash_body .dashboard_card{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  width: 400px;
+  margin: 20px 50px;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.admin_dash_page .admin_dash_body .dashboard_card:hover{
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+.admin_dash_page .admin_dash_body .dashboard_card .count{
+  font-size: 40px;
+}
+.admin_dash_page .admin_dash_body .user_card{
+  background-color: #4DA8DA;
+}
+.admin_dash_page .admin_dash_body .admin_card{
+  background-color: #F1B24A;
+}
+
+.admin_dash_page .admin_dash_body .product_card{
+  background-color: #DDAF94;
+}
+.admin_dash_page .admin_dash_body .pending_card{
+  background-color: #ffa8B6;
+}
+
+/* .home-section{
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    top: 0;
+    left: 78px;
+    padding-left: 160px;
+    width: calc(100% - 78px);
+    transition: all 0.5s ease;
+    z-index: 2;
+  }
+  .sidebar.open ~ .home-section{
+    left: 250px;
+    width: calc(100% - 250px);
+  }
+  .home-section .text{
+    display: inline-block;
+    color: #11101d;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 18px
+  }
+
+  @media (max-width: 767px) {
+    .home-section{
+        position: relative;
+        background: #E4E9F7;
+        min-height: 100vh;
+        top: 0;
+        left: 78px;
+        padding-left: 10px;
+        width: calc(100% - 78px);
+        transition: all 0.5s ease;
+        z-index: 2;
+      }
+  } */

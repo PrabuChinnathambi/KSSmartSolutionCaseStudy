@@ -1,0 +1,58 @@
+.add_product .form_data{
+    text-align: center;
+    height: 100vh;
+    background-color: white;
+    margin-top: 20px;
+    padding: 40px 180px;
+    
+    display: inline-block;
+    
+}
+.add_product .form_data h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.add_product .form_data .add_user_button{
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-top: 15px;
+    font-size: 10px;
+    background-color: rgb(20, 20, 73);
+}
+
+.add_product .form_data .form_field{
+    margin: 18px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.add_product .form_data .form_field p{
+    width: 150px;
+    text-align: right;
+    margin-right: 30px;
+}
+.add_product .form_data .form_field input{
+    border-radius: 30px;
+    padding: 3px 3px 3px 15px ;
+    font-size: 12px;
+}
+
+input[type=file]::file-selector-button {
+    border: 1px solid black;
+    padding: .5em .4em;
+    border-radius: 20px;
+    background-color: white;
+    transition: 1s;
+    min-width: 170px;
+    margin-left: -12px;
+  }
+  
+input[type=file]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+  }

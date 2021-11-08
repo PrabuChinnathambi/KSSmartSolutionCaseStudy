@@ -1,0 +1,35 @@
+.topbar .topbar_container{
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    background-color: whitesmoke;
+    border-radius: 20px;
+
+}
+
+.topbar .topbar_container .topbar_left{
+    display: flex;
+    align-items: center;
+}
+
+.topbar .topbar_container .topbar_right .logOut_btn{
+    padding: 5px 15px;
+    background-color: red;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: white;
+    border-radius: 25px;
+}
+.topbar{
+    padding: 30px;
+}
+
+
+.topbar img{
+    width: 40px;
+    margin-right: 20px;
+}

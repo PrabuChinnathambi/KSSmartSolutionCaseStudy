@@ -1,0 +1,10 @@
+.vendor_page{
+    background: #E4E9F7;
+    min-height: 100vh;
+    color: #11101D;
+}
+
+.vendor_page .vendor_body{
+    display: flex;
+    align-items:flex-start;
+}
